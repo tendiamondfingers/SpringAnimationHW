@@ -29,11 +29,12 @@ final class AnimationViewController: UIViewController {
         animetedView.force = animation.force
         animetedView.duration = animation.duration
         animetedView.delay = animation.delay
+        
         animation = Animation.toGetAnimation()
     }
     
     private func updateButtonTitle() {
-        runButton.setTitle(" \(animation.preset)", for: .normal)
+        runButton.setTitle("Run \(animation.preset)", for: .normal)
     }
 }
 
