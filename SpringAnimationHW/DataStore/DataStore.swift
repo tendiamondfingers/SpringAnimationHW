@@ -7,7 +7,7 @@
 
 import SpringAnimation
 
-class DataStore {
+final class DataStore {
     
     static let shared = DataStore()
     

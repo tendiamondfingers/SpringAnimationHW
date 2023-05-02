@@ -23,7 +23,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Spring">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.09281071275472641" green="0.6050383448600769" blue="0.58803719282150269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.08203587681055069" green="0.77895873785018921" blue="0.77111977338790894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="54" name="Menlo-Bold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -36,13 +36,13 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Animation">
                                                 <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.97591739892959595" green="0.46702921390533447" blue="0.021222002804279327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="48" name="Menlo-Bold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
-                                        <nil key="highlightedColor"/>
+                                        <color key="highlightedColor" red="0.090299107134342194" green="0.69673234224319458" blue="0.58297979831695557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                 </subviews>
                                 <constraints>
