@@ -25,7 +25,7 @@ final class AnimationViewController: UIViewController {
     
     @IBAction func runButtonPressed(_ sender: UIButton) {
         performAnimation()
-        updateInfoAboutAnimation()
+        toGetAnimationLabel()
         updateButtonTitle()
     }
     
@@ -41,10 +41,6 @@ final class AnimationViewController: UIViewController {
         animetedView.delay = animation.delay
         
         animetedView.animate()
-    }
-    
-    private func updateInfoAboutAnimation() {
-        infoAboutAnimationLabel.text = animation.description
     }
     
     private func updateButtonTitle() {
