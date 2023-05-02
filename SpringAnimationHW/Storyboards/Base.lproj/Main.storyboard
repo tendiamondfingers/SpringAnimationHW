@@ -17,7 +17,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvG-Yv-vgE" customClass="SpringView" customModule="SpringAnimation">
                                 <rect key="frame" x="65" y="66" width="191" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUT-YZ-dEx">
+                                        <rect key="frame" x="8" y="42" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.09281071275472641" green="0.6050383448600769" blue="0.58803719282150269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="hUT-YZ-dEx" firstAttribute="leading" secondItem="fvG-Yv-vgE" secondAttribute="leadingMargin" id="BUk-Dm-G1m"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hUT-YZ-dEx" secondAttribute="trailing" constant="20" symbolic="YES" id="jxD-sD-adV"/>
+                                    <constraint firstItem="hUT-YZ-dEx" firstAttribute="centerY" secondItem="fvG-Yv-vgE" secondAttribute="centerY" id="vof-Fj-n40"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="10"/>
@@ -63,6 +76,7 @@
                     </view>
                     <connections>
                         <outlet property="animetedView" destination="fvG-Yv-vgE" id="NWy-ta-bM6"/>
+                        <outlet property="infoAboutAnimationLabel" destination="hUT-YZ-dEx" id="rZK-H1-V4T"/>
                         <outlet property="runButton" destination="gQe-yx-AV3" id="6My-PZ-uNW"/>
                     </connections>
                 </viewController>

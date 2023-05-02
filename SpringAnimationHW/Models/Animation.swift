@@ -14,6 +14,17 @@ struct Animation {
     let delay: Double
     let damping: Double
     
+    var description: String {
+        """
+        preset: \(preset)
+        curve: \(curve)
+        force: \(String(format: "%.2f", force))
+        duration: \(String(format: "%.2f", duration))
+        delay: \(String(format: "%.2f", delay))
+        damping: \(String(format: "%.2f", damping))
+        """
+    }
+    
     static func toGetAnimation() -> Animation {
         let preset = DataStore.shared.presets.randomElement()?.rawValue ?? "shake"
         let curve = DataStore.shared.curves.randomElement()?.rawValue ?? "easeIn"
