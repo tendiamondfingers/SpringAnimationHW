@@ -19,7 +19,7 @@ final class AnimationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupInitialAnimation()
+        toGetAnimationLabel()
     }
     
     
@@ -29,7 +29,7 @@ final class AnimationViewController: UIViewController {
         updateButtonTitle()
     }
     
-    private func setupInitialAnimation() {
+    private func toGetAnimationLabel() {
         infoAboutAnimationLabel.text = animation.description
     }
     
